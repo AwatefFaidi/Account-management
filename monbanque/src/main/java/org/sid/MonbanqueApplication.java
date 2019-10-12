@@ -37,7 +37,7 @@ public class MonbanqueApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {	// TODO Auto-generated method stub
-		/*Client c1= cltdao.save(new Client("awatef","awatef@gmail.com"));
+		Client c1= cltdao.save(new Client("awatef","awatef@gmail.com"));
 		Client c2= cltdao.save(new Client("atef","atef@gmail.com"));
 		Compte cp1= cptdao.save(new CompteCourant("c1", new Date(),589,c1,8978));
 		Compte cp2=cptdao.save(new CompteEpargne("c2",new Date(),859,c2,5.8));
@@ -46,6 +46,6 @@ public class MonbanqueApplication implements CommandLineRunner{
 		 opdao.save( new Rettrait (new Date(),458,cp1));
 		 opdao.save( new Rettrait (new Date(),458,cp2));
 		 banquemetier.verser("c1", 589);
-	*/
+	
 	}
 }
