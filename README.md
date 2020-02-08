@@ -1,4 +1,4 @@
-# gestion_comptes
+# Account-management
 Application web JEE qui permet de gérer des comptes  bancaires.
 -Chaque compte est defini un code,un solde et une date de creation.
 -Un compte courant est un courant qui possede en plus un decouvert et un compte epargne possede un taux d interet.
